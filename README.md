@@ -43,8 +43,10 @@ PORT=5001
 ## 🛠 Getting Started
 Clone the repository
 
+```bash
 git clone https://github.com/mohammad-umair32/Expense-Tracker-App-Backend.git
 cd Expense-Tracker-App-Backend
+```
 
 1. Install dependencies
 
