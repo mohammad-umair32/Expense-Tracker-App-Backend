@@ -33,7 +33,7 @@ package-lock.json
 
 Create a `.env` file in the root folder:
 
-````env
+env
 DATABASE_URL=your_neon_database_url
 
 UPSTASH_REDIS_REST_URL=your_upstash_redis_rest_url
