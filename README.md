@@ -27,14 +27,13 @@ README.md
 package.json
 package-lock.json
 
-
 ---
 
 ## ⚙️ Environment Variables
 
 Create a `.env` file in the root folder:
 
-```env
+````env
 DATABASE_URL=your_neon_database_url
 
 UPSTASH_REDIS_REST_URL=your_upstash_redis_rest_url
@@ -47,24 +46,43 @@ Clone the repository
 git clone https://github.com/mohammad-umair32/Expense-Tracker-App-Backend.git
 cd Expense-Tracker-App-Backend
 
-Install dependencies
+1. Install dependencies
 
-npm install
+   ```bash
+   npm install
+````
 
-Set up environment variables
-Copy .env.example → .env and add your credentials
+2. Set up environment variables
+   Copy .env.example → .env and add your credentials
 
-Run in development
+3. Run in development
 
+```bash
 npm run dev
+```
 
-Build for production
+4. Build for production
 
+```bash
 npm run build
+```
 
-Start production server
+5. Start production server
 
+```bash
 npm start
+```
+
+📦 Deployment
+Hosted on Render
+
+Every push to the master branch triggers an auto-deploy
 
 
+📜 License
+This project is licensed under the MIT License.
 
+---
+
+If you want, I can also **add a short code snippet in the README** showing how you use Upstash with `Ratelimit` like in your code. That could make it clearer for future contributors.  
+Do you want me to include that example?
