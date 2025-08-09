@@ -48,9 +48,9 @@ cd Expense-Tracker-App-Backend
 
 1. Install dependencies
 
-   ```bash
-   npm install
-````
+```bash
+npm install
+```
 
 2. Set up environment variables
    Copy .env.example → .env and add your credentials
