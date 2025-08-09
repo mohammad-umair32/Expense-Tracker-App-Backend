@@ -55,6 +55,7 @@ npm install
 ```
 
 2. Set up environment variables
+
    Copy .env.example → .env and add your credentials
 
 3. Run in development
@@ -84,7 +85,4 @@ Every push to the master branch triggers an auto-deploy
 📜 License
 This project is licensed under the MIT License.
 
----
 
-If you want, I can also **add a short code snippet in the README** showing how you use Upstash with `Ratelimit` like in your code. That could make it clearer for future contributors.  
-Do you want me to include that example?
